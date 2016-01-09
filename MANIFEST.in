@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include quizapp *.css
+recursive-include quizapp *.csv
+recursive-include quizapp *.html
+recursive-include quizapp *.ico
+recursive-include quizapp *.js
+recursive-include quizapp *.json
+recursive-include quizapp *.md
+recursive-include quizapp *.png
+recursive-include quizapp *.py
+recursive-include quizapp *.svg
+recursive-include quizapp *.txt
+recursive-exclude quizapp *.pyc
